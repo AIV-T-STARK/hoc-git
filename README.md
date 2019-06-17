@@ -1,5 +1,4 @@
 # GIT - Các lệnh cơ bản 
-## Repo
 ![](https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro1_2_2.png)
 - gồm 2 loại: 
     + Remote Repo: hiểu như là server (github, gitlab)
@@ -9,7 +8,8 @@
 git clone <link repo>
 ```
 
-###Working directory ----add---> ###index ----Commit----> Repo 
+### Working directory ----add---> ### index ----Commit----> ###Repo 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnTKivF9m-xxnYMmXZjcnOvGYjqIvsttjy2qSi4738kZFeSt4Ctg)
 - Khai báo những gì đã thay đổi vào index để chuẩn bị cho việc index:
 ```
 git add <ten file> 
@@ -32,8 +32,8 @@ git commit --amend (sửa lại commit trước đó)
 git reset <mã commit> (quay lại 1 commit nào dó)
 ```
 
-## Branch
-
+### Branch
+![](https://cdn-images-1.medium.com/max/2400/1*tnvRls6Dg7vFt0zGdtfu_w.png)
 
 ```
 git checkout -b <tên branch> (tạo branch sau đó chuyển đến branch đó)
