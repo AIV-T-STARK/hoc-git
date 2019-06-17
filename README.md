@@ -1,5 +1,6 @@
 # GIT - Các lệnh cơ bản 
 ## Repo
+![](https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro1_2_2.png)
 - gồm 2 loại: 
     + Remote Repo: hiểu như là server (github, gitlab)
     + Local Repo: Repo trên máy người dùng (thường được đồng bộ với Remote Repo)
@@ -30,3 +31,18 @@ git commit --amend (sửa lại commit trước đó)
 ```
 git reset <mã commit> (quay lại 1 commit nào dó)
 ```
+
+## Branch
+
+
+```
+git checkout -b <tên branch> (tạo branch sau đó chuyển đến branch đó)
+git checkout <tên branch> (chuyển branch)
+git branch (liệt kê các branch hiện có)
+git branch <tên branch> (tạo branch)
+```
+
+```
+git merge <tên branch> (gộp branch khác vào branch hiên tại) 
+```
+- việc này thường xảy ra xung đột -> sửa thủ công -> commit những gì đã thay đổi
