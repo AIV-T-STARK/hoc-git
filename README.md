@@ -46,3 +46,5 @@ git branch <tên branch> (tạo branch)
 git merge <tên branch> (gộp branch khác vào branch hiên tại) 
 ```
 - việc này thường xảy ra xung đột -> sửa thủ công -> commit những gì đã thay đổi
+
+Chuc nang A
